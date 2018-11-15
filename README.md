@@ -24,7 +24,7 @@ Automatically register all services by following the name pattern by assembly.
 1. Enter the service container;
 1. Enter the assembly of a project implementation target of the dependency injection;
 1. Enter the suffix pattern for the services to be registered;
-1. Optionally, enter a suffix pattern for the used contract.
+1. Optionally, enter a prefix pattern for the used contract, but default is "I".
 
 > Add services as scope
 ```csharp
