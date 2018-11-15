@@ -1,0 +1,8 @@
+﻿################################################################################
+# This .gitignore file was automatically created by Microsoft(R) Visual Studio.
+################################################################################
+
+/src/HCI.Core.Helper/.vs/HCI.Core.Helper/v15/Server/sqlite3
+/src/HCI.Core.Helper/HCI.Core.Helper/bin/Debug
+/src/HCI.Core.Helper/.vs/HCI.Core.Helper/DesignTimeBuild
+/src/HCI.Core.Helper/HCI.Core.Helper/obj
