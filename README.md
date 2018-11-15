@@ -10,8 +10,8 @@ The following platforms are supported:
 ## Getting started
 The easiest way to get started is by [installing the available NuGet packages](https://www.nuget.org/packages/HCI.Core.Helper) and if you're not a NuGet fan then follow these steps:
 
-Download the latest runtime library from: https://www.nuget.org/api/v2/package/HCI.Core.Helper;
- Or install the latest package:
+Download the latest runtime library from: https://www.nuget.org/api/v2/package/HCI.Core.Helper.
+Or install the latest package:
 PM> **Install-Package HCI.Core.Helper**
 
 ## A Quick Example
