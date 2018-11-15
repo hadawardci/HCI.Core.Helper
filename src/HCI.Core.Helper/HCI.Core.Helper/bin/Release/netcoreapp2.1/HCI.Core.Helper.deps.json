@@ -6,7 +6,7 @@
   "compilationOptions": {},
   "targets": {
     ".NETCoreApp,Version=v2.1": {
-      "HCI.Core.Helper/1.0.1": {
+      "HCI.Core.Helper/1.0.2": {
         "dependencies": {
           "Microsoft.Extensions.DependencyInjection": "2.1.1"
         },
@@ -36,7 +36,7 @@
     }
   },
   "libraries": {
-    "HCI.Core.Helper/1.0.1": {
+    "HCI.Core.Helper/1.0.2": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

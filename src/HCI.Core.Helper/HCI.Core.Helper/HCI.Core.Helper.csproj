@@ -3,8 +3,8 @@
   <PropertyGroup>
     <TargetFramework>netcoreapp2.1</TargetFramework>
     <NeutralLanguage>en</NeutralLanguage>
-    <Description>Automatically register all services by following the name pattern</Description>
-    <Copyright>Copyright © Hadaward Contributors</Copyright>
+    <Description>ASP.NET Core help tools</Description>
+    <Copyright>Copyright © Hadaward Consultoria e Informática</Copyright>
     <PackageLicenseUrl>https://github.com/hadawardci/HCI.Core.Helper/blob/master/LICENSE</PackageLicenseUrl>
     <PackageProjectUrl>https://github.com/hadawardci/HCI.Core.Helper</PackageProjectUrl>
     <PackageTags>IoC, DI, ASP.NET.Core, ASP.NET.Core Helper</PackageTags>
@@ -13,7 +13,8 @@
     <RepositoryUrl>https://github.com/hadawardci/HCI.Core.Helper/tree/master/src/HCI.Core.Helper</RepositoryUrl>
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
     <PackageRequireLicenseAcceptance>true</PackageRequireLicenseAcceptance>
-    <Version>1.0.1</Version>
+    <Version>1.0.2</Version>
+    <PackageReleaseNotes>Bug fix</PackageReleaseNotes>
   </PropertyGroup>
 
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|AnyCPU'">
