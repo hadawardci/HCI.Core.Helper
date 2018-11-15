@@ -42,7 +42,7 @@ public void ConfigureServices(IServiceCollection services)
 public void ConfigureServices(IServiceCollection services)
 {
 	// TODO code here.
-	ServicesRegister.AddServicesScope(services, typeof(FooService).Assembly, "Service");
+	ServicesRegister.AddServicesSingleton(services, typeof(FooService).Assembly, "Service");
 }
 ```
 
@@ -50,7 +50,7 @@ public void ConfigureServices(IServiceCollection services)
 
 > Add services as transient
 ```csharp
-public void ConfigureServices(IServiceCollection services)
+public void AddServicesTransient(IServiceCollection services)
 {
 	// TODO code here.
 	ServicesRegister.AddServicesScope(services, typeof(FooService).Assembly, "Service");
