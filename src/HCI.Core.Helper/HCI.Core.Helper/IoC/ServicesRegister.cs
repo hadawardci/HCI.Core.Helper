@@ -5,7 +5,7 @@ using System.Reflection;
 namespace HCI.Core.Helper.IoC
 {
     /// <summary>
-    /// Automatically register services by following the name pattern.
+    /// Automatically register all services by following the name pattern by assembly.
     /// </summary>
     public static class ServicesRegister
     {

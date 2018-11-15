@@ -1,0 +1,40 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>HCI.Core.Helper</name>
+    </assembly>
+    <members>
+        <member name="T:HCI.Core.Helper.IoC.ServicesRegister">
+            <summary>
+            Automatically register all services by following the name pattern by assembly.
+            </summary>
+        </member>
+        <member name="M:HCI.Core.Helper.IoC.ServicesRegister.AddServicesScope(Microsoft.Extensions.DependencyInjection.IServiceCollection,System.Reflection.Assembly,System.String,System.String)">
+            <summary>
+            Add services as scope
+            </summary>
+            <param name="container">service container</param>
+            <param name="assembly">service assembly</param>
+            <param name="patternSuffix">end of the service nomenclature</param>
+            <param name="patternPrefix">starts of the service nomenclature</param>
+        </member>
+        <member name="M:HCI.Core.Helper.IoC.ServicesRegister.AddServicesSingleton(Microsoft.Extensions.DependencyInjection.IServiceCollection,System.Reflection.Assembly,System.String,System.String)">
+            <summary>
+            Add services as singleton
+            </summary>
+            <param name="container">service container</param>
+            <param name="assembly">service assembly</param>
+            <param name="patternSuffix">end of the service nomenclature</param>
+            <param name="patternPrefix">starts of the service nomenclature</param>
+        </member>
+        <member name="M:HCI.Core.Helper.IoC.ServicesRegister.AddServicesTransient(Microsoft.Extensions.DependencyInjection.IServiceCollection,System.Reflection.Assembly,System.String,System.String)">
+            <summary>
+            Add services as transient
+            </summary>
+            <param name="container">service container</param>
+            <param name="assembly">service assembly</param>
+            <param name="patternSuffix">end of the service nomenclature</param>
+            <param name="patternPrefix">starts of the service nomenclature</param>
+        </member>
+    </members>
+</doc>

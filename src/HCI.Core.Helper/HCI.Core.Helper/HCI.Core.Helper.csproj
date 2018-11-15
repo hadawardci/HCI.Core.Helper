@@ -3,20 +3,29 @@
   <PropertyGroup>
     <TargetFramework>netcoreapp2.1</TargetFramework>
     <NeutralLanguage>en</NeutralLanguage>
-    <Description>Automatically register services by following the name pattern</Description>
+    <Description>Automatically register all services by following the name pattern</Description>
     <Copyright>Copyright © Hadaward Contributors</Copyright>
     <PackageLicenseUrl>https://github.com/hadawardci/HCI.Core.Helper/blob/master/LICENSE</PackageLicenseUrl>
     <PackageProjectUrl>https://github.com/hadawardci/HCI.Core.Helper</PackageProjectUrl>
-    <PackageTags>IoC, DI, ASP.NET.Core</PackageTags>
+    <PackageTags>IoC, DI, ASP.NET.Core, ASP.NET.Core Helper</PackageTags>
     <Authors>Eduardo Silva</Authors>
     <Company>Hadaward Consultoria e Informática</Company>
-    <RepositoryUrl>https://github.com/hadawardci/HCI.Core.Helper/src</RepositoryUrl>
+    <RepositoryUrl>https://github.com/hadawardci/HCI.Core.Helper/tree/master/src/HCI.Core.Helper</RepositoryUrl>
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
     <PackageRequireLicenseAcceptance>true</PackageRequireLicenseAcceptance>
+    <Version>1.0.1</Version>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|AnyCPU'">
+    <DocumentationFile>C:\hadawardci\HCI.Core.Helper.git\src\HCI.Core.Helper\HCI.Core.Helper\HCI.Core.Helper.xml</DocumentationFile>
   </PropertyGroup>
 
   <ItemGroup>
     <PackageReference Include="Microsoft.Extensions.DependencyInjection" Version="2.1.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Properties\" />
   </ItemGroup>
 
 </Project>
