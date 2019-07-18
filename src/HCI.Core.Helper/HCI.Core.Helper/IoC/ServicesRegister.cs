@@ -47,8 +47,8 @@ namespace HCI.Core.Helper.IoC
               from type in assembly.GetExportedTypes()
               where type.Name.EndsWith(patternSuffix)
               where !type.IsInterface
-              where type.GetInterfaces().Any()
-              select new { Implementation = type, Service = type.GetInterfaces().FirstOrDefault(x => x.Name.StartsWith(patternPrefix)) };
+              where type.GetInterfaces().Any(x => x.Name.Equals(patternPrefix + type.Name))
+              select new { Service = type.GetInterfaces().FirstOrDefault(i => i.Name.Equals(patternPrefix + type.Name)), Implementation = type };
 
             foreach (var reg in registrations)
                 switch (injectionTypeValue)

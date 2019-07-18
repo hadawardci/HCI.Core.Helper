@@ -13,7 +13,7 @@
     <RepositoryUrl>https://github.com/hadawardci/HCI.Core.Helper/tree/master/src/HCI.Core.Helper</RepositoryUrl>
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
     <PackageRequireLicenseAcceptance>true</PackageRequireLicenseAcceptance>
-    <Version>1.0.2</Version>
+    <Version>1.0.3</Version>
     <PackageReleaseNotes>Bug fix</PackageReleaseNotes>
   </PropertyGroup>
 
