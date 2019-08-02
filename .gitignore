@@ -2,8 +2,13 @@
 # This .gitignore file was automatically created by Microsoft(R) Visual Studio.
 ################################################################################
 
+.vs
+*.nupkg
 /src/HCI.Core.Helper/.vs/HCI.Core.Helper/v15/Server/sqlite3
 /src/HCI.Core.Helper/HCI.Core.Helper/bin/Debug
-/src/HCI.Core.Helper/.vs/HCI.Core.Helper/DesignTimeBuild
+/src/HCI.Core.Helper/HCI.Core.Helper/bin/Release
 /src/HCI.Core.Helper/HCI.Core.Helper/obj
-/src/HCI.Core.Helper/.vs/HCI.Core.Helper/v16/Server/sqlite3
+/src/HCI.Core.Helper/HCI.Core.Helper/bin
+/src/HCI.Core.Helper/.vs
+/src/HCI.Core.Helper/.vs/HCI.Core.Helper/DesignTimeBuild/src/HCI.Core.Helper/.vs/HCI.Core.Helper/v16/Server/sqlite3
+/src/HCI.Core.Helper/HCI.Core.Helper.WebTests/obj
