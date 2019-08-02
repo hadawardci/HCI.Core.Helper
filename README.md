@@ -57,5 +57,28 @@ public void AddServicesTransient(IServiceCollection services)
 }
 ```
 
+
+------------
+
+> Return factory with service deployments allowing to ignore certain types through callback:
+```csharp
+public void ConfigureServices(IServiceCollection services)
+{
+// TODO code here.
+Lifestyle lifestyle = Lifestyle.Singleton;
+string patternSuffix = "able";
+string patternPrefix = "I"
+var factory = ServicesRegister.RegisterFactory<Factory, IRepository>(services, patternSuffix, patternPrefix, Callback);
+container.AddSingleton(typeof(IFactory), factory);
+ ...
+ }
+ private static string Callback(Type type)
+{
+	var name = type.Name.Replace("Repository", string.Empty);
+	var project = type.Namespace.split(' ')[0];
+	var key = $"{project}.{name}".ToUpper();
+	return key;
+}
+```
 ## Report Support
 To report errors, questions and suggestions go to the [link](https://www.nuget.org/packages/HCI.Core.Helper/1.0.0/ReportMyPackage)
